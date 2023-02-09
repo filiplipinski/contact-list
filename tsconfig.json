@@ -5,10 +5,8 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
@@ -25,7 +23,5 @@
     "module": "esnext",
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

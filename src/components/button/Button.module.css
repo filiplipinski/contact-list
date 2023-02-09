@@ -1,0 +1,33 @@
+.button {
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:disabled {
+  background-color: var(--grey);
+  color: var(--grey-light);
+  cursor: not-allowed;
+}
+
+.button:hover:enabled {
+  background-color: var(--red-dark);
+}
+
+.button:focus:enabled {
+  outline: 3px solid var(--red-light);
+}
+
+.loaderWrapper {
+  margin-left: 16px;
+}

@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 16px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  margin: 10px 0px;
+  background: var(--white);
+  cursor: pointer;
+  width: 380px;
+  min-height: 150px;
+  border: 2px solid transparent;
+  outline: none;
+}
+
+.container.selected {
+  border: 2px solid var(--red);
+}
+
+.container:hover {
+  box-shadow: 0px 0px 2px 2px var(--red-light);
+  background-color: #fde4e46a;
+}
+
+.container:focus-visible:not(:hover) {
+  outline: 3px solid var(--red-light);
+  border-radius: 1px;
+}
+
+.headerContainer {
+  display: flex;
+}
+
+.initials {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--heading);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.firstNameLastName {
+  margin: 0;
+  color: var(--heading);
+  font-size: 20px;
+}
+
+.jobTitle {
+  color: var(--red);
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.emailAddress {
+  color: var(--paragraph);
+  font-size: 14px;
+  margin: 0;
+  margin-top: 24px;
+  width: "100%";
+  text-align: center;
+}

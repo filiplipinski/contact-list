@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.selectedText {
+  color: var(--heading);
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.personCardsContainer {
+  overflow-anchor: none;
+}
+
+.loadMoreButton {
+  margin: 16px 0 8px;
+  min-width: 180px;
+}
+
+.fetchErrorContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.fetchMoreErrorWrapper {
+  min-height: 20px;
+}
+
+.fetchMoreErrorText {
+  margin: 0;
+}

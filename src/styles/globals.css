@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overscroll-behavior: none;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--background);
+}
+
+:root {
+  --white: #fff;
+  --black: "#000";
+
+  --red: #e74c3c;
+  --red-dark: #c64334;
+  --red-light: #ffb8b8;
+
+  --grey: #d5d8db;
+  --grey-light: #fcfdff;
+
+  --heading: #333333;
+  --paragraph: #666666;
+  --background: #f4f4f4;
+}
