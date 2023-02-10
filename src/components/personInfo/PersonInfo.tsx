@@ -5,6 +5,10 @@ import { Person } from "src/types/types";
 
 import styles from "./PersonInfo.module.css";
 
+export enum PersonInfoTestID {
+  Container = "PersonInfoTestID.Container",
+}
+
 export const getPersonInfoElementId = (id: string) => {
   return `PersonInfo_${id}`;
 };
@@ -32,6 +36,7 @@ export const PersonInfo: FC<Props> = ({ person, isSelected, onSelect }) => {
       tabIndex={0}
       onClick={() => onSelect(person)}
       onKeyDown={handleKeyDown}
+      data-testid={PersonInfoTestID.Container}
     >
       <div className={styles.headerContainer}>
         <div>

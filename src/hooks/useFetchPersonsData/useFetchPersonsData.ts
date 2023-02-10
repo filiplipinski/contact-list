@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect } from "react";
 
 import { Person } from "src/types/types";
 
-import apiData from "../api";
+import apiData from "../../api";
 
 export const useFetchPersonsData = () => {
   const [data, setData] = useState<Person[] | undefined>(undefined);

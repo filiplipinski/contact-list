@@ -1,3 +1,7 @@
+# Note
+
+This is my solution to the given task. I did every point from the Definition of Done, and I set a high UX goal. In addition, I took care of accessibility and wrote unit tests. A note on CSS modules, I didn't want to style in pure CSS because classes are not limited in scope, to avoid this I used CSS modules as a quick problem solver for such a small task.
+
 # TODO
 
 Please do not fork the repo, clone it and put it in your own github / save it locally.

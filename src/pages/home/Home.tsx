@@ -1,14 +1,14 @@
 import { FC, useState, useCallback, useMemo } from "react";
 
 import { Person } from "src/types/types";
-import { useFetchPersonsData } from "src/hooks/useFetchPersonsData";
+import { useFetchPersonsData } from "src/hooks/useFetchPersonsData/useFetchPersonsData";
 import {
   getPersonInfoElementId,
   MemoizedPersonInfo,
 } from "src/components/personInfo/PersonInfo";
 import { Loader } from "src/components/loader/Loader";
 import { Button } from "src/components/button/Button";
-import { partition } from "src/components/utils/partition";
+import { partition } from "src/components/utils/partition/partition";
 
 import styles from "./Home.module.css";
 
